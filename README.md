@@ -19,8 +19,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v1
-    - uses: automate6500/keyword-release-action@master
+    - uses: actions/checkout@v4
+    - uses: ObinnaOkoye89/keyword-release-action@main
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
