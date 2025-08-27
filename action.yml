@@ -1,4 +1,4 @@
-name: 'Keyword Releaser 9999'
+name: 'Keyword Releaser 99999'
 description: 'Creates releases based on a keyword'
 runs:
    using: 'docker'
