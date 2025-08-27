@@ -1,21 +1,13 @@
-# Chapter 05_09
+# Publish an Action to the Marketplace
 
-- Create a repository on GitHub using the [New Repository](https://github.com/new) page.  Name it something that relates to the lesson like `exercise-files`.
+Review these documents in preparation for publishing your action to the GitHub Marketplace:
 
-- In a terminal, run the following commands to initialize the directory as a git repository.
+## Two-factor Authentication (2FA)
+- [Accessing GitHub using two-factor authentication](https://help.github.com/en/articles/about-two-factor-authentication)
+- [Configuring two-factor authentication](https://help.github.com/en/articles/configuring-two-factor-authentication)
 
-        git init
-        git add .
-        git commit -m 'first check in'
+## GitHub Marketplace Developer Agreement
+- [GitHub Marketplace Developer Agreement](https://help.github.com/en/articles/github-marketplace-developer-agreement)
 
-- Now add the new repository you created as a remote for the local repo.
-
-        git remote add origin git@github.com:YOUR_GITHUB_USER_NAME_HERE/exercise-files.git
-
-- After the remote is added, push the files to the remote.
-
-        git push -u origin master
-
- - Browse to the repository on GitHub.com and reload the page to confirm the files have been properly pushed.
-
-Once the files are hosted on GitHub.com, you're ready to start making changes locally and pushing them to the remote repo.
+## Publishing an action in the GitHub Marketplace
+- [Publishing an action in the GitHub Marketplace](https://developer.github.com/marketplace/actions/publishing-an-action-in-the-github-marketplace/)
